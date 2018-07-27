@@ -12,4 +12,4 @@ class num
 		n=in.nextInt();
           System.out.println((n/a)*(n/b));
 		}
-	}[B[B[B[B[B[B[B[B[B[B
+	}
