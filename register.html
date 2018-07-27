@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <title>Signup</title>
+   <link rel="stylesheet" href="nav.css" type="text/css">
+   <style type="text/css">
+div.a2
+{
+font-weight:bold;
+float:left;
+width:50%;
+font-size:88%;
+}
+table,tr,td,th,#w
+{
+font-weight:bold;
+font-size:105%;
+color:purple;
+}
+a.a1{
+text-decoration:none;
+font-size:105%;
+font-family:tohoma;
+color:red;
+}
+.a1:hover
+{
+  font-size:120%;
+font-family:Algerian;
+color:maroon;
+}
+#a4
+{
+   font-size:130%;
+font-family:Castellar;
+color:maroon;  
+}
+#t{
+ font-family:Algerian;   
+}
+#h{
+ font-size:120%;
+font-family:Castellar;
+color:red;   
+}
+</style>
+
+</head>
+<body>
+    <!-- Main Header -->
+    <header>
+        <h1 id="t">
+           <i class="fa fa-snowflake-o"></i> E-Learning
+            <i class="fa fa-snowflake-o"></i></h1>
+        <p id="h">The Smart way of Learning</p>
+    </header>
+
+    <!-- Main Navigation -->
+    <nav>
+        <ul>
+            <li>
+                <a href="home.html" class="active">
+                  <i class="fa fa-home"></i> Home
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                   <i class="fa fa-id-card"></i> About Us
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                  <i class="fa fa-envelope"></i>  Contact Us
+                </a>
+            </li>
+        </ul>
+    </nav>
+        
+        <div class="a2">
+            <h4 id="a4">Create New Account</h4>
+            <form action="signup" method="post" autocomplete="off">
+   <table>
+      <tr><th>UserName</th><td>
+              <input type="text" name="name" id="ti" required maxlength=15 title="Enter username maxmium length 15 charactor" placeholder="UserName"></td></tr>
+   <tr><th>Email address</th><td>
+           <input type="email" name="email"  title="Enter Email maxmium length 40 charactor including @" required maxlength=40 placeholder="Email-id"></td></tr>
+    <tr><th>Password</th><td>
+            <input type="password" name="pwd" required maxlength=10 placeholder="Password" title="Enter username maxmium length 10 charactor"></td></tr>
+    <tr><th colspan="3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;<input type="submit" id="w" class="a1"></th></tr>
+    <tr><th>Already account created &nbsp;&nbsp;<a href="login.html" class="a1">Click here to Login</a></th></tr>
+     </table>
+        </form>     
+  </div>
+    </body>
+</html>
