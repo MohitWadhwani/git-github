@@ -1,3 +1,0 @@
-This is Devops Git Example
-Hye Welcome to Devops
-This is another File
