@@ -1,0 +1,102 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>E-library</title>
+   <link rel="stylesheet" href="nav.css">
+   <style type="text/css">
+div.a2
+{
+font-weight:bold;
+float:left;
+width:50%;
+font-size:130%;
+}
+table,tr,td,th,#w
+{
+font-weight:bold;
+font-size:105%;
+color:purple;
+}
+a{
+text-decoration:none;
+font-size:105%;
+font-family:tohoma;
+color:red;
+}
+a#fo.fo{
+text-decoration:none;
+font-size:50%;
+font-family:tohoma;
+color:blueviolet;
+float: right;
+margin-left: -130px;
+}
+#h{
+ font-size:120%;
+font-family:Castellar;
+color:burlywood;  
+font-weight: bold;
+}
+.a1:hover
+{
+  font-size:110%;
+font-family:Algerian;
+color:maroon;
+ background-color: bisque;
+}
+#t{
+ font-family:Algerian;   
+}
+span:hover{
+font-family:Algerian;
+color:orange;   
+}
+</style>
+
+</head>
+<body>
+    <!-- Main Header -->
+    <header>
+        <h1 id="t">
+           <i class="fa fa-snowflake-o"></i> 
+           E-Learning
+            <i class="fa fa-snowflake-o"></i></h1>
+            <p id="h"><span>The Smart way of Learning</span></p>
+    </header>
+
+    <!-- Main Navigation -->
+    <nav>
+        <ul>
+            <li>
+                <a href="home.html" class="active">
+                  <i class="fa fa-home"></i> Home
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                   <i class="fa fa-id-card"></i> About Us
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                  <i class="fa fa-envelope"></i>  Contact Us
+                </a>
+            </li>
+        </ul>
+    </nav>
+  <div class="a2">
+  <h3 id="h">Login here</h3>
+  <form action="login" method="post" autocomplete="off">
+  <table>
+   <tr><th>Email address</th><td>
+           <input type="email" name="email" title="Enter Email id"  required placeholder="Email-id"></td></tr>
+    <tr><th>Password</th><td>
+            <input type="password" name="pwd" title="Enter password" autocomplete="off" required placeholder="Password"></td></tr>
+    <tr><th colspan="2"><input type="submit" id="w" class="a1"></th>
+        <td><a href="forgetpwd.html" id="fo" class="fo">Forget password</a></td></tr>
+    <tr><th>Created new account &nbsp;&nbsp;<a href="signup.html" class="a1">click here</a>  
+  </table>
+        </form>     
+  </div>
+</body>
+</html>
